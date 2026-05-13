@@ -3,44 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escola Futuro Técnico</title>
+    <title>Escola Digital | Home</title>
+    <!-- Importando fonte moderna -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Link para o CSS (Caminho corrigido) -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">Escola Futuro</div>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">Escola<span>Digital</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Matrícula</a></li>
+                    <li><a href="#" class="btn-contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <h1>Bem-vindo à Escola do Amanhã</h1>
-            <p>Educação de qualidade para construir o seu futuro.</p>
-            <button>Saiba Mais</button>
-        </section>
+    <section class="hero">
+        <div class="container">
+            <h1>Educação que transforma o seu amanhã.</h1>
+            <p>Matrículas abertas para o período de 2026. Venha fazer parte da melhor infraestrutura de ensino da região.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn-primary">Ver Cursos</a>
+                <a href="#" class="btn-secondary">Falar com Consultor</a>
+            </div>
+        </div>
+    </section>
 
-        <section class="features">
+    <section class="cards-section">
+        <div class="container grid">
             <div class="card">
-                <h3>Laboratórios Modernos</h3>
-                <p>Equipamentos de última geração para aulas práticas.</p>
+                <div class="icon">🏫</div>
+                <h3>Campus Moderno</h3>
+                <p>Laboratórios de última geração e áreas de convivência amplas.</p>
             </div>
             <div class="card">
-                <h3>Corpo Docente</h3>
-                <p>Professores especialistas e atuantes no mercado.</p>
+                <div class="icon">🎓</div>
+                <h3>Diplomas Reconhecidos</h3>
+                <p>Nossos cursos possuem nota máxima na avaliação do MEC.</p>
             </div>
-        </section>
-    </main>
+            <div class="card">
+                <div class="icon">💻</div>
+                <h3>Ensino Híbrido</h3>
+                <p>Flexibilidade para estudar onde e quando você quiser.</p>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2026 Escola Futuro Técnico - Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2026 Escola Digital - CNPJ: 00.000.000/0001-00</p>
+        </div>
     </footer>
 
 </body>
